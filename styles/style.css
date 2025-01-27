@@ -95,7 +95,7 @@ ol {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -116,7 +116,7 @@ ol {
   border-bottom: 1px solid white;
   border-left: none;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -158,7 +158,7 @@ ol {
 }
 
 .search-form__label-text {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -188,16 +188,11 @@ ol {
   background-color: white;
 }
 
-.search-form__label:has(:focus) {
-  outline: 1px solid white;
-  outline-offset: 2px;
-}
-
 .button {
   border: 1px solid white;
   padding: 6px 73.5px;
   color: inherit;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
@@ -233,7 +228,7 @@ ol {
 }
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: normal;
@@ -258,14 +253,17 @@ ol {
   position: relative;
   width: 399px;
   height: 298px;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .content__list-item {
-  margin-bottom: 30px;
   padding-right: 3px;
   padding-left: 3px;
+  margin-bottom: 30px;
+}
+
+.content__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .content__card-link {
@@ -315,7 +313,7 @@ ol {
 
 .content__video-card-title {
   overflow: hidden;
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
@@ -328,7 +326,7 @@ ol {
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
